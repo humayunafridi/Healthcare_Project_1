@@ -1,0 +1,72 @@
+# ============================================================
+# HHH 1st Project - GitHub .gitignore
+# ============================================================
+
+# -----------------------------
+# Synthea source and generated data
+# -----------------------------
+Synthea/
+
+# -----------------------------
+# CSV / TSV data
+# -----------------------------
+*.csv
+*.tsv
+
+# -----------------------------
+# SQL Server database / backup
+# -----------------------------
+*.bak
+*.mdf
+*.ndf
+*.ldf
+*.trn
+
+# -----------------------------
+# Power BI temporary/cache files
+# -----------------------------
+PowerBI/.pbi/
+PowerBI/.tmp/
+PowerBI/AutoRecovery/
+*.pbit
+
+# Keep the final PBIX only if intentionally added.
+
+# -----------------------------
+# Windows / VS Code
+# -----------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+Thumbs.db
+Desktop.ini
+
+# -----------------------------
+# Python / temporary files
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# -----------------------------
+# Logs / temporary exports
+# -----------------------------
+*.log
+*.tmp
+*.temp
+
+# -----------------------------
+# OS / editor files
+# -----------------------------
+.DS_Store
+*.swp
+*.swo
